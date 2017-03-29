@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="43a1f9db-9a25-4b8b-a5b3-7e577b2aafe3" name="msmiri@LAFABRICA-DESA2 2017-03-28 19:05:14" runUser="GOALSYSTEMS\msmiri" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="0b0392bd-e439-4093-895c-82b4a7b75cbb">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="msmiri_LAFABRICA-DESA2 2017-03-28 19_05_14" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-03-28T19:05:14.4398564+02:00" queuing="2017-03-28T19:05:16.4648564+02:00" start="2017-03-28T19:05:16.6488564+02:00" finish="2017-03-28T19:05:17.9808564+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="4" executed="4" passed="3" error="1" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LAFABRICA-DESA2" outcome="Warning" timestamp="2017-03-28T19:05:16.4168564+02:00">
+        <Text>Advertencia: problema de implementación de serie de pruebas: no se encuentra el ensamblado o módulo 'WebGrease' al que hace referencia directa o indirectamente el contenedor de prueba 'C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\testjobdemo.tests.dll'.</Text>
+      </RunInfo>
+      <RunInfo computerName="LAFABRICA-DESA2" outcome="Warning" timestamp="2017-03-28T19:05:16.4168564+02:00">
+        <Text>Advertencia: problema de implementación de serie de pruebas: no se encuentra el ensamblado o módulo 'Microsoft.Owin.Security.OAuth' al que hace referencia directa o indirectamente el contenedor de prueba 'C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\testjobdemo.tests.dll'.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="About" storage="testjobdemo.tests.dll" id="185bb102-1dbc-37b9-1975-6e0db94e4470">
+      <Execution id="5badf5f9-402f-439f-a2cb-ccda656361e3" />
+      <TestMethod codeBase="C:/Users/msmiri/Documents/Visual Studio 2015/Projects/TestJobDemo/TestJobDemo.Tests/bin/Debug/TestJobDemo.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestJobDemo.Tests.Controllers.HomeControllerTest, TestJobDemo.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="Can_Create_Account_And_Login" storage="testjobdemo.tests.dll" id="585cfca2-56ce-f08c-7be5-4f600e720349">
+      <Execution id="9c1a3351-4c64-4c41-ac42-f5ff99d474b6" />
+      <TestMethod codeBase="C:/Users/msmiri/Documents/Visual Studio 2015/Projects/TestJobDemo/TestJobDemo.Tests/bin/Debug/TestJobDemo.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestJobDemo.Tests.tests.SelTests, TestJobDemo.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Create_Account_And_Login" />
+    </UnitTest>
+    <UnitTest name="Index" storage="testjobdemo.tests.dll" id="41a073b2-1e9e-7f84-4c1b-b67f5ae963e9">
+      <Execution id="e75d306d-5950-4d72-b228-447478085099" />
+      <TestMethod codeBase="C:/Users/msmiri/Documents/Visual Studio 2015/Projects/TestJobDemo/TestJobDemo.Tests/bin/Debug/TestJobDemo.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestJobDemo.Tests.Controllers.HomeControllerTest, TestJobDemo.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="Contact" storage="testjobdemo.tests.dll" id="cd219328-057b-e6a8-eee4-8f7bea3f9f9e">
+      <Execution id="0e8d934b-1815-4b37-8582-164225a7ff94" />
+      <TestMethod codeBase="C:/Users/msmiri/Documents/Visual Studio 2015/Projects/TestJobDemo/TestJobDemo.Tests/bin/Debug/TestJobDemo.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestJobDemo.Tests.Controllers.HomeControllerTest, TestJobDemo.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Contact" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="185bb102-1dbc-37b9-1975-6e0db94e4470" executionId="5badf5f9-402f-439f-a2cb-ccda656361e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd219328-057b-e6a8-eee4-8f7bea3f9f9e" executionId="0e8d934b-1815-4b37-8582-164225a7ff94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41a073b2-1e9e-7f84-4c1b-b67f5ae963e9" executionId="e75d306d-5950-4d72-b228-447478085099" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="585cfca2-56ce-f08c-7be5-4f600e720349" executionId="9c1a3351-4c64-4c41-ac42-f5ff99d474b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5badf5f9-402f-439f-a2cb-ccda656361e3" testId="185bb102-1dbc-37b9-1975-6e0db94e4470" testName="About" computerName="LAFABRICA-DESA2" duration="00:00:00.3617707" startTime="2017-03-28T19:05:16.7628564+02:00" endTime="2017-03-28T19:05:17.6548564+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5badf5f9-402f-439f-a2cb-ccda656361e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e8d934b-1815-4b37-8582-164225a7ff94" testId="cd219328-057b-e6a8-eee4-8f7bea3f9f9e" testName="Contact" computerName="LAFABRICA-DESA2" duration="00:00:00.0023551" startTime="2017-03-28T19:05:17.6578564+02:00" endTime="2017-03-28T19:05:17.6668564+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e8d934b-1815-4b37-8582-164225a7ff94">
+    </UnitTestResult>
+    <UnitTestResult executionId="e75d306d-5950-4d72-b228-447478085099" testId="41a073b2-1e9e-7f84-4c1b-b67f5ae963e9" testName="Index" computerName="LAFABRICA-DESA2" duration="00:00:00.0002034" startTime="2017-03-28T19:05:17.6688564+02:00" endTime="2017-03-28T19:05:17.6718564+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e75d306d-5950-4d72-b228-447478085099">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c1a3351-4c64-4c41-ac42-f5ff99d474b6" testId="585cfca2-56ce-f08c-7be5-4f600e720349" testName="Can_Create_Account_And_Login" computerName="LAFABRICA-DESA2" startTime="2017-03-28T19:05:17.6738564+02:00" endTime="2017-03-28T19:05:17.9138564+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c1a3351-4c64-4c41-ac42-f5ff99d474b6">
+      <Output>
+        <ErrorInfo>
+          <Message>El adaptador de prueba unitaria produjo la excepción: 
+El tipo no está resuelto para el miembro 'OpenQA.Selenium.DriverServiceNotFoundException,WebDriver, Version=3.3.0.0, Culture=neutral, PublicKeyToken=null'..</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

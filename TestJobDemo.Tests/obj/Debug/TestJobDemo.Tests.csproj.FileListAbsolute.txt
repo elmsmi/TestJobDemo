@@ -32,8 +32,8 @@ C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Te
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.Owin.Security.dll
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Owin.dll
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
-C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\EntityFramework.dll
+C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\TestJobDemo.pdb
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Newtonsoft.Json.xml
@@ -51,8 +51,8 @@ C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Te
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.Owin.Security.xml
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
-C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\EntityFramework.xml
+C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Users\msmiri\Documents\Visual Studio 2015\Projects\TestJobDemo\TestJobDemo.Tests\obj\Debug\TestJobDemo.Tests.csprojResolveAssemblyReference.cache

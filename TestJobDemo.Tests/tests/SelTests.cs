@@ -12,9 +12,9 @@ namespace TestJobDemo.Tests.tests
     [TestClass]
     public class SelTests
     {
-        private readonly IWebDriver _chrome = new ChromeDriver();
+        //private readonly IWebDriver _firefox = new FirefoxDriver();
+        //private readonly IWebDriver _chrome = new ChromeDriver();
         private readonly IWebDriver _iexplorer = new InternetExplorerDriver();
-        private readonly IWebDriver _firefox = new FirefoxDriver();
 
         [TestMethod]
         public void Can_Create_Account_And_Login()
@@ -30,10 +30,10 @@ namespace TestJobDemo.Tests.tests
         {
             if (_iexplorer != null)
                 _iexplorer.Quit();
-            if (_firefox != null)
-                _firefox.Quit();
-            if (_chrome != null)
-                _chrome.Quit();
+            //if (_firefox != null)
+            //    _firefox.Quit();
+            //if (_chrome != null)
+            //    _chrome.Quit();
         }
 
         private void CreateUser(IWebDriver driver, string email, string password)
